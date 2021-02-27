@@ -1,0 +1,17 @@
+package noetic.example.codetest.serviceInterfaces;
+
+/**
+ * Created by DS hewapathirana.
+ * Date:24/02/2020
+ * Time: 9:45 PM
+ */
+public interface TransformServiceInterface {
+
+    Object convertToDto(Object entity, String dtoClassName) throws ClassNotFoundException;
+
+    Object convertToEntity(Object dto, String entityClassName) throws ClassNotFoundException;
+
+    Object convertToDtoList(Object entities, String entityClassName) throws ClassNotFoundException;
+
+    Object convertToDtoHashSet(Object entities, String dtoClassName) throws ClassNotFoundException;
+}

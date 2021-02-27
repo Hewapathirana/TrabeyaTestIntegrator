@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b2bcda8-2d29-4df8-b921-c00253c19775" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Resillience4j" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.0-bin/2dakv70gp803gtm5ve1ufmvttn/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1byc8fjmYGmG5IjBtvU0YycGPA0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodetestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="noetic.example.codetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="noetic.example.codetest.CodetestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CodetestApplication" />
+        <item itemvalue="Spring Boot.CodetestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b2bcda8-2d29-4df8-b921-c00253c19775" name="Default Changelist" comment="" />
+      <created>1589607615448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589607615448</updated>
+      <workItem from="1589608108031" duration="1784000" />
+      <workItem from="1589609998663" duration="808000" />
+      <workItem from="1589610829307" duration="644000" />
+      <workItem from="1589639754663" duration="515000" />
+      <workItem from="1589640291943" duration="360000" />
+      <workItem from="1589640674307" duration="256000" />
+      <workItem from="1589640952309" duration="18265000" />
+      <workItem from="1589875166792" duration="189000" />
+      <workItem from="1590392775282" duration="20000" />
+      <workItem from="1590392907937" duration="1116000" />
+      <workItem from="1594957643614" duration="816000" />
+      <workItem from="1594963389436" duration="621000" />
+      <workItem from="1595567221597" duration="1011000" />
+      <workItem from="1595825133445" duration="1248000" />
+      <workItem from="1596017452117" duration="56000" />
+      <workItem from="1596017538754" duration="1071000" />
+      <workItem from="1597130711449" duration="642000" />
+      <workItem from="1598332433875" duration="418000" />
+      <workItem from="1599823900069" duration="879000" />
+      <workItem from="1600411496254" duration="23000" />
+      <workItem from="1602072549824" duration="17000" />
+      <workItem from="1606735747433" duration="757000" />
+      <workItem from="1607836505618" duration="510000" />
+      <workItem from="1609998098504" duration="1240000" />
+      <workItem from="1610089004209" duration="26000" />
+      <workItem from="1614093380356" duration="13496000" />
+      <workItem from="1614157370689" duration="1741000" />
+      <workItem from="1614177028714" duration="23779000" />
+    </task>
+    <task id="LOCAL-00001" summary="exception handling in DTOs">
+      <created>1589702342519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589702342519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="trabeya first commit">
+      <created>1614105412433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614105412433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="trabeya first commit">
+      <created>1614105913046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614105913046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed exception">
+      <created>1614105977010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614105977010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exception handling in DTOs" />
+    <MESSAGE value="trabeya first commit" />
+    <MESSAGE value="removed exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed exception" />
+  </component>
+</project>
