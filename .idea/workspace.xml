@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b2bcda8-2d29-4df8-b921-c00253c19775" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/noetic/example/codetest/controller/IntegratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/noetic/example/codetest/controller/IntegratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/noetic/example/codetest/serviceImpl/BankServiceImple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/noetic/example/codetest/serviceImpl/BankServiceImple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/noetic/example/codetest/controller/IntegratorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noetic/example/codetest/controller/IntegratorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/noetic/example/codetest/serviceImpl/BankServiceImple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noetic/example/codetest/serviceImpl/BankServiceImple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noetic/example/codetest/exceptions/BankException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noetic/example/codetest/exceptions/BankException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noetic/example/codetest/exceptions/Validation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noetic/example/codetest/exceptions/Validation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/noetic/example/codetest/serviceImpl/MapValidationErrorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/noetic/example/codetest/serviceImpl/MapValidationErrorService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1614157370689" duration="1741000" />
       <workItem from="1614177028714" duration="24708000" />
       <workItem from="1614485610361" duration="6328000" />
-      <workItem from="1614505684683" duration="1732000" />
+      <workItem from="1614505684683" duration="2196000" />
     </task>
     <task id="LOCAL-00001" summary="exception handling in DTOs">
       <created>1589702342519</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614500404728</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modification">
+      <created>1614507437104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614507437104</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +199,7 @@
     <MESSAGE value="removed exception" />
     <MESSAGE value="add docker file" />
     <MESSAGE value="add docker file congif" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker file congif" />
+    <MESSAGE value="modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification" />
   </component>
 </project>
