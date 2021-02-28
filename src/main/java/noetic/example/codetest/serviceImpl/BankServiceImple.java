@@ -85,7 +85,7 @@ public class BankServiceImple implements BankService {
         transactionDetails.setAmount(transactionDto.getAmount());
         transactionDetails.setStatusMessage(response.getBody());
         transactionDetails.setSenderAccount(transactionDto.getSenderAccount());
-        transactionDetails.setReceiverAccount(transactionDto.getReceiverAccount());
+        transactionDetails.setReceiverAccount(transactionDto.getIsOwnAccount() ? "" : transactionDto.getReceiverAccount());
         transactionDetails.setOwnFundtransfer(transactionDto.getIsOwnAccount());
         transactionDetails.setTransactionId(String.valueOf(ZonedDateTime.now().toInstant().toEpochMilli()));
         transactionDetailsRepo.save(transactionDetails);

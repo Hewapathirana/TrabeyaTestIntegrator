@@ -1,23 +1,33 @@
-version: '3'
+version: "3"
 services:
-  mysql-standalone:
-    image: 'mysql:5.7'
-    environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_PASSWORD=admin
-      - MYSQL_DATABASE=bank
+  consumer:
+    image: bank
+    networks:
+      - consumer-producer
+
+  mysqldb:
+    image: mysql:8
     ports:
-      - "3311:3306"
-  springboot-docker-container:
-    image: springboot-docker-container
-    ports:
-      - "8082:8082"
+      - "3306:3306"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3311/bank?autoReconnect=true&useSSL=false
-      SPRING_DATASOURCE_USERNAME: "root"
-      SPRING_DATASOURCE_PASSWORD: "admin"
-    build:
-      context: "./"
-      dockerfile: "DockerFile"
+      - MYSQL_ROOT_PASSWORD="admin"
+      - MYSQL_USER="root"
+      - MYSQL_PASSWORD="admin"
+      - MYSQL_DATABASE="bank"
+
+  producer:
+    image: integrator
+    ports:
+      - "8080:8080"
+    networks:
+      - consumer-producer
+      - integrator-mysql
     depends_on:
-      - mysql-standalone
+      - consumer
+      - mysqldb
+
+
+
+networks:
+  consumer-producer:
+  integrator-mysql:

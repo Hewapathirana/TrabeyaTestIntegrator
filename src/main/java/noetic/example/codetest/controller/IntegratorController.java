@@ -35,11 +35,10 @@ public class IntegratorController {
     }
 
     @PostMapping("/transaction")
-    public ResponseEntity<?> addEmployee(@Valid @RequestBody TransactionDto transactionDto,
+    public ResponseEntity<?> fundTransfer(@Valid @RequestBody TransactionDto transactionDto,
                                          BindingResult result) throws ClassNotFoundException {
         ResponseEntity<?> errorMap = mapValidationErrorService.MapValidationService(result);
         if(errorMap != null)return errorMap;
-        //String senderAccount, String receiverAccount, boolean isOwnFundTransfer, String amount
         return   ResponseEntity.ok(bankService.fundTransfer(transactionDto));
 
     }
